@@ -1,0 +1,40 @@
+@media (min-width: 1500px) {
+  .main-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1200px) {
+  .main-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .search {
+    display: none;
+  }
+  .search-button {
+    background-color: white;
+    border: none;
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 520px) {
+  .sidebar {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+  .mic-section,
+  .create {
+    display: none;
+  }
+  .search-button {
+    padding: 1.7rem;
+  }
+}

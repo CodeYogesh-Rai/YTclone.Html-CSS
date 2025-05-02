@@ -1,0 +1,20 @@
+.hamburger-menu-section:hover,
+.youtube-logo-section:hover,
+.mic:hover,
+.create:hover,
+.notification:hover,
+.owner-profile:hover,
+.sidebar-icons-container:hover {
+  border: 1px solid black;
+}
+.hamburger-menu-section:hover,
+.youtube-logo-section:hover,
+.mic:hover,
+.video-preview:hover,
+.create:hover,
+.notification:hover,
+.search-button:hover,
+.owner-profile:hover,
+.sidebar-icons-container:hover {
+  cursor: pointer;
+}
